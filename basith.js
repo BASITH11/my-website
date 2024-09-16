@@ -12,17 +12,19 @@ ScrollReveal().reveal('.pic', {origin:'bottom'});
 ScrollReveal().reveal('#p2 span,#p4', {origin:'right'});
 ScrollReveal().reveal( {origin:'left'});
 
-let navigation = document.querySelector('.nav');  // Select the first .nav element
-let nav_bar = document.getElementsByTagName('nav')[0];  // Access the first <nav> element
-let menu = document.querySelector('#t-img');     // Select the first .toggle element
+let nav_bar = document.querySelector('nav');  // Access the first <nav> element
+let menu = document.querySelector('#t-img');  // Select the toggle image
 
 // Add click event listener to menu
 menu.addEventListener('click', () => {
-    if (nav_bar.style.display === "flex") {
-        nav_bar.style.display = "none";  // Hide nav_bar if it's currently visible
+    if (nav_bar.style.visibility === "visible" || nav_bar.style.visibility === "") {
+        nav_bar.style.visibility = "hidden";  // Hide nav_bar but keep space
+        nav_bar.style.opacity = "0";  // Make it invisible
     } else {
-        nav_bar.style.display = "flex";  // Show nav_bar if it's hidden
+        nav_bar.style.visibility = "visible";  // Show nav_bar
+        nav_bar.style.opacity = "1";  // Fully visible
     }
 });
+
 
 
