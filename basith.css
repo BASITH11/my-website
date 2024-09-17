@@ -256,12 +256,9 @@ letter-spacing: 2px;
     background-position: 20px;
     color: aliceblue;
     box-shadow: 0 0 3rem white;
-    transition: .5s ease-in-out;
+   
 }
-.about-info button:hover{
-    box-shadow: none;
-    transform:scale(1.1);
-}
+
 #skills{
     background:  #c0c0c0
     
@@ -358,7 +355,7 @@ letter-spacing: 2px;
 h
    
 #projects {
-    background:  #c0c0c0;
+    background: #242222;
     height:100vh;
 }
 .project-img img{
@@ -706,7 +703,6 @@ h2 span{
      form{
        width:270px;
        position: relative;
-       right: 5px;
        box-shadow: 0 0 .8rem rgb(75, 66, 66);
      
       
