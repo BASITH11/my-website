@@ -174,10 +174,10 @@ nav {
     transform:scale(1.1);
 }
 .icons{
-    width:30%;
+    width:50%;
     height: 50px;
    position: relative;
-   bottom:px;
+   bottom:0px;
    left: 350px;
     display: flex;
     flex-direction: row;
@@ -612,14 +612,15 @@ h2 span{
         width: 200px;
         height: 200px;
         position: relative;
-        left:50px;
+        left:15px;
+        border-radius: 50px;
     }
     .homepage button{
         width: 150px;
         height:30px;
     }
     .icons{
-       left:130px;
+       left:80px;
     }
     .aboutpage{
         flex-direction: column;
