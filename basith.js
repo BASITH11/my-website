@@ -10,7 +10,7 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content,#p1,.t1', {origin:'top'});
 ScrollReveal().reveal('.pic', {origin:'bottom'});
 ScrollReveal().reveal('#p2 span,#p4', {origin:'right'});
-ScrollReveal().reveal( {origin:'left'});
+ScrollReveal().reveal( '.project-items,#v1,#V2',{origin:'left'});
 
 let nav_bar = document.querySelector('nav');  // Access the first <nav> element
 let menu = document.querySelector('#t-img');  // Select the toggle image
