@@ -543,6 +543,7 @@ h2 span{
  @media (max-width: 500px) {
    body{
     width: 100vw;
+    overflow-x: hidden;
    }
     header{
         flex-direction:row;
@@ -567,7 +568,7 @@ h2 span{
             width:30px;
             height:30px;
             position: relative;
-            left: 140px;
+            left: 160px;
             top:10px;
     } 
     .nav{ 
@@ -642,6 +643,10 @@ h2 span{
         position: relative;
         bottom:180px
     }
+    .about-info #p3{
+        font-size: 8px;
+        line-height: 15px;
+    }
     .about-info button{
         height: 20px;
         width:100px;
@@ -652,7 +657,7 @@ h2 span{
     }
      .skillbar-items{
         width:80px;
-        height: 50px;
+        height: 60px;
         text-align: center;
         gap: 20px;
         border-radius: 10px;
@@ -674,25 +679,39 @@ h2 span{
      #projects{
         background: #3d3b3b;
      }
+     .project-container{
+        width:280px;
+        top:0px;
+        right:10px;
+
+     }
      
      .project-items{
         position: relative;
         right:15px;
+        width:250px;
      }
      .contact-container{
         flex-direction: column;
         position: relative;
         background: none;
+        box-shadow: none;
+        border: none;
        
      }
      .a-section{
         display: none;
      }
      form{
-       width:350px;
+       width:270px;
        position: relative;
        right: 10px;
+       box-shadow: 0 0 .8rem rgb(75, 66, 66);
+     
       
+     }
+     input{
+        width: 100%;
      }
  }
 
